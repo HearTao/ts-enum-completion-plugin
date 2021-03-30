@@ -1,0 +1,19 @@
+{
+  "name": "ts-enum-completion-plugin",
+  "version": "0.0.1",
+  "author": "kingwl <kingwenlu@gmail.com>",
+  "repository": "https://github.com/HearTao/ts-enum-completion-plugin",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "prettier -c --config ./prettier.config.js ./src/**/*.{ts,tsx} ./tests/**/*.{ts,tsx}",
+    "prettier": "yarn lint --write"
+  },
+  "devDependencies": {
+    "@microsoft/typescript-etw": "^0.1.0",
+    "open-typescript": "^4.3.0-dev.20210303",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  }
+}
